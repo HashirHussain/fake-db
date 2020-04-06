@@ -1,0 +1,22 @@
+{
+  "name": "fake-db",
+  "version": "1.0.0",
+  "description": "Fake REST server",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HashirHussain/fake-db.git"
+  },
+  "author": "Hashir Hussain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HashirHussain/fake-db/issues"
+  },
+  "homepage": "https://github.com/HashirHussain/fake-db#readme",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
